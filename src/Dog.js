@@ -32,7 +32,7 @@ class Dog extends Component {
         return (
             <div>
                 <Col xs={6} md={4}>
-                    <Thumbnail src={this.state.image} responsive >
+                    <Thumbnail src={this.state.image}>
                         <h3>{this.state.name}</h3>
                         <Button>TODO: route more images of dogs</Button>
                     </Thumbnail>

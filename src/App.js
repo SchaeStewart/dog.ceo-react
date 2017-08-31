@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import DogList from './DogList';
+import AppNav from "./AppNav";
 
 class App extends Component {
     constructor(props) {
@@ -15,6 +16,7 @@ class App extends Component {
     render() {
         return (
             <div>
+                <AppNav/>
                 <DogList/>
             </div>
         );
